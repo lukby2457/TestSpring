@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.itbank.service">
+	<logger name="com.itbank.aop">
 		<level value="debug" />
 	</logger>
 	
