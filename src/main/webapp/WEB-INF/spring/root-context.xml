@@ -20,7 +20,7 @@
 	</bean>
 	
 	<bean id="hds" class="com.zaxxer.hikari.HikariDataSource">
-		<constructor-arg ref="hc"></constructor-arg>
+		<constructor-arg ref="hc"/>
 	</bean>
 	
 	<bean id="ssfb" class="org.mybatis.spring.SqlSessionFactoryBean">
@@ -28,7 +28,7 @@
 	</bean>
 	
 	<bean id="sst" class="org.mybatis.spring.SqlSessionTemplate">
-		<constructor-arg ref="ssfb"></constructor-arg>
+		<constructor-arg ref="ssfb"/>
 	</bean>
 		
 </beans>
