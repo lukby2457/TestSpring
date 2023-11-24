@@ -8,7 +8,6 @@ import com.itbank.model.vo.BoardVO;
 
 public interface BoardDAO {
 
-	@Select("select * from board order by idx desc offset 0 row fetch first 10 rows only")
 	List<BoardVO> selectAll();
 
 }
