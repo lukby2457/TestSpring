@@ -11,8 +11,8 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.itbank.gitTest">
-		<level value="info" />
+	<logger name="com.itbank.aop">
+		<level value="debug" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->
